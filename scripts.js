@@ -1,26 +1,29 @@
 
 /**
- * Tipos de Datos
+ * Tipos de Datos - colección de datos
  */
 
-// NUMBER - Para todos los tipos de numeros. Enteros y decimales
+ /**
+  * OBJETOS:
+  * Colecciones de datos (información)
+  * que tienen in identificador y un valor
+  */
+ // ARRAY (Arreglo)
 
 /**
- * Console.log(typeof 25)
+ * console.log(["Jose", "José", "Juan", "Jean", "Oto"])
  */
 
-// STRING - Cadena de texto
 
-/**
- * console.log(typeof "Hola")
- */
 
-// BOOLEAN - false, true
+ //OBJETOS 
 
-/**
- * console.log(typeof true)
- */
+/* console.log(typeof{
+    nombre: "Beto", 
+    apellido: "Quiroga"
+}) */
 
-// console.log() : metodo y objeto de javascrip para imprimir en la consola
 
-// typeof : para leer un tipo de dato
+
+// Nulo null
+console.log(typeof null)
