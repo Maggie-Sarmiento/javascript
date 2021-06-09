@@ -1,24 +1,29 @@
-
 /**
- * OPERADORES UNARIOS
+ * TYPE COERCION  capacidad de convertir un dato en otro tipo de dato
  */
 
-let d = 10
+ let a = 521 
+ let b = "422"
 
-d++
-d++
 
-d--
-// console.log(d)
+//let resultado = a + b  //convierte todo a String por + (O aritmetico) que es de concatenacion
 
-/**
- * OPERADORES TERNARIOS
- */
+//let resultado = a - b
 
- let a = 5
- let b = 8
+ // console.log(typeof resultado)
 
- let c = b < a ? "ES VERDAD!!" : "¡¡ESTO ES FALSO!!"
+ let c = 521
+ let d = "perro"
 
- console.log(c)
+//let resultado = c - d
+//console.log(resultado)
 
+// NaN => Not  number // Por el operador - lo reconoce como numero auqneu el resultado no lo sea
+
+let e = true
+let f = false
+
+let resultado = e + f
+console.log(resultado) // El operador + busca que sea cadena de texto, luego se da cuenta que quieres hacer una operacion
+
+// true vale 1 por eso de resultado da 2  los suma a peasar de que son booleanos
