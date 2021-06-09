@@ -1,29 +1,30 @@
 
 /**
- * Tipos de Datos - colección de datos
+ * Tipos de Datos - No definido
  */
 
- /**
-  * OBJETOS:
-  * Colecciones de datos (información)
-  * que tienen in identificador y un valor
-  */
- // ARRAY (Arreglo)
+// console.log(typeof undefined) 
+
 
 /**
- * console.log(["Jose", "José", "Juan", "Jean", "Oto"])
+ * VARIABLES
  */
 
+// Declaración
+    // var alumno <-- antes del 2015 ahora se usa let
+let alumno
+
+// Asignación  
+alumno = "Beto Quiroga"
 
 
- //OBJETOS 
-
-/* console.log(typeof{
-    nombre: "Beto", 
-    apellido: "Quiroga"
-}) */
+// Declaración y Asignación
+let profesor = "Alexys Lozada"
 
 
+// Reasignación
+profesor = "Alvaro Felipe"
 
-// Nulo null
-console.log(typeof null)
+console.log(profesor)
+// profesor = 25
+// console.log(typeof profesor) //<-- Devuelve un tipo de dato number
