@@ -1,13 +1,9 @@
 
 /**
- * Asignación por referencia
+ * Constantes
  */
 
-let profesor = "Alexys"
-let alumno = profesor  // solo se asigna al momento alumno es independiente
+const NOMBRE_EMPRESA = "Puntodevida" // BPractica Mayusculas y snake case caundo son datos 
+const SITIO_WEB = "https//puntodevida.org"
 
-profesor = "Alvaro"
-alumno = "Beto"
-
-console.log(profesor)
-console.log(alumno)
+// las funciones tambien pueden ser declaradas con const 
