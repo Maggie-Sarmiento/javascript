@@ -1,9 +1,24 @@
 
 /**
- * Constantes
+ * OPERADORES DE ASIGNACION
  */
 
-const NOMBRE_EMPRESA = "Puntodevida" // BPractica Mayusculas y snake case caundo son datos 
-const SITIO_WEB = "https//puntodevida.org"
+ // operador = para asignar un valor 
 
-// las funciones tambien pueden ser declaradas con const 
+let alumno 
+
+alumno = "Beto"
+
+
+/**
+ * OPERADORES ARITMETICOS
+ */
+
+ //  + - * / %
+
+ // let operacion = 50 - 60
+ let numero1 = 10
+ let numero2 = 4
+
+ let operacion = numero1 + numero2
+ console.log(operacion)
