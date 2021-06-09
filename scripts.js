@@ -1,15 +1,25 @@
 
 /**
- * OPERADORES DE COMPARACION II
+ * OPERADORES LÓGICOS
+ * AND (&&) se tienen que cumplir las dos comparaciones
+ * OR (||) se tiene que cumplir al menos una comparacion
  */
 
-// MAYOR QUE >
-// MENOR QUE <
-// MAYOR O IGUAL QUE >=
-// MENOR O IGUAL QUE <=
 
-let a = 20
-let b = 10
+let a = 10
+let b = 20
+let c = 30
 
-// console.log(a > b)
-console.log(a <= b)
+// saber si b es mayor que a y si b es mayor que c
+
+// let resultado = (b > a) && (b > c)
+
+//console.log(resultado)
+
+// saber si b es menor que a o si b es menor que c
+
+let resultado = (b < a) || (b < c)
+
+console.log(resultado)
+
+// se pueen usar operadores de comparacion
