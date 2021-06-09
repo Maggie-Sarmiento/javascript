@@ -5,20 +5,10 @@
 
  // operador = para asignar un valor 
 
-let alumno 
+let a = 5
+let b = 3
 
-alumno = "Beto"
+// a+= b // += suma y asigna el valor  // -= *= /= %=  
+// a**= b // potencia
 
-
-/**
- * OPERADORES ARITMETICOS
- */
-
- //  + - * / %
-
- // let operacion = 50 - 60
- let numero1 = 10
- let numero2 = 4
-
- let operacion = numero1 + numero2
- console.log(operacion)
+console.log(a**b)
