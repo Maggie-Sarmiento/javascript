@@ -1,30 +1,13 @@
 
 /**
- * Tipos de Datos - No definido
+ * Asignación por referencia
  */
 
-// console.log(typeof undefined) 
+let profesor = "Alexys"
+let alumno = profesor  // solo se asigna al momento alumno es independiente
 
-
-/**
- * VARIABLES
- */
-
-// Declaración
-    // var alumno <-- antes del 2015 ahora se usa let
-let alumno
-
-// Asignación  
-alumno = "Beto Quiroga"
-
-
-// Declaración y Asignación
-let profesor = "Alexys Lozada"
-
-
-// Reasignación
-profesor = "Alvaro Felipe"
+profesor = "Alvaro"
+alumno = "Beto"
 
 console.log(profesor)
-// profesor = 25
-// console.log(typeof profesor) //<-- Devuelve un tipo de dato number
+console.log(alumno)
