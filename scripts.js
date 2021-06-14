@@ -1,19 +1,25 @@
 /**
- * FUNCIONES - Parámetros
+ * FUNCIONES - Valores de retorno 
  */
 
 // Declaración de mi función saludar
 
-function saludar(nombre) {
-    if (typeof nombre === "string"){
-        console.log(`Hola ${nombre}, muy buenos días`)
-    } else {
-        console.log("Error de tipo de dato")
-    }
+// function saludar(nombre) {
+//     if (typeof nombre === "string"){
+//         console.log(`Hola ${nombre}, muy buenos días`)
+//     } else {
+//         console.log("Escriba un nombre correcto")
+//     }
+// }
+
+
+function obtenerNombreCompleto(nombre, apellidos) {
+//    let nombreCompleto = `${nombre} ${apellidos}`
+//    return nombreCompleto
+    return `${nombre} ${apellidos}`
 }
 
+let nombreCompleto = obtenerNombreCompleto("Carlos", 256)
 
-
-//Llamado a la función saludar
-saludar(550)
+console.log(nombreCompleto)
 
