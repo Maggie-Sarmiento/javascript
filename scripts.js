@@ -1,21 +1,12 @@
 /**
- * CICLOS
- * BUCLES O LOOPS
+ * CICLO WHILE
+ * mientras
  */
 
+ let juguetes = 10
 
-// Dado un texto deseamos imprimir un contenido letra por letra
-// elemplo "beto"
-// b
-// e
-// t
-// o
-
-let texto = "betoquiroga"
-
-console.log(texto[0])
-console.log(texto[1])
-
-for (let i = 0; i < texto.length; i++){
-    console.log(texto[i])
+while (juguetes > 0) {
+    juguetes--
+    console.log(`Regalamos un juguete. Nos quedan ${juguetes-1}`)
 }
+
