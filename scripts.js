@@ -1,12 +1,13 @@
 /**
- * CICLO WHILE
- * mientras
+ * FUNCIONES
  */
 
- let juguetes = 10
+// Declaración de mi función saludar
 
-while (juguetes > 0) {
-    juguetes--
-    console.log(`Regalamos un juguete. Nos quedan ${juguetes-1}`)
+function saludar() {
+    console.log("Hola, muy buenos días")
 }
+
+//Llamado a la función saludar
+saludar()
 
