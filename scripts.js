@@ -3,15 +3,19 @@
  * BUCLES O LOOPS
  */
 
-//  for
-for (let i = 0; i < 10; i++) {
-    console.log(i)
+
+// Dado un texto deseamos imprimir un contenido letra por letra
+// elemplo "beto"
+// b
+// e
+// t
+// o
+
+let texto = "betoquiroga"
+
+console.log(texto[0])
+console.log(texto[1])
+
+for (let i = 0; i < texto.length; i++){
+    console.log(texto[i])
 }
-
-/* 
-i vale 0; i es menor que 10? si = console.log(i), i se incrementa y ahora vale 1
-i vale 1, i es menor que 10? si = console.log(i), i se incrementa y ahora vale 2
-y asi hasta que y valga 10
-i vale 10, i es menor que 10? no TERMINE
-*/
-
