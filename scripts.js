@@ -1,22 +1,24 @@
 /**
- * ForEach vs Map
+ * Filter
  */
 
-// Corrección del tema anterior
-/* let amigos = ["Diana", "Roberto", "Valentina", "Susana"]
+// Filter (filtrar contenido)
 
-let dato = amigos.forEach(amigo => console.log(`Hola ${amigo}`))
-console.log(dato) */
+/* let numeros = [10, 436, 45, 74, 33, 9, 2, 54]
 
-// Si imprime array con el saludo por cada amigo, pero no almacena el tamaño dado que forEach no funciona asi
+let nuevoArray = []
+numeros.map(num => {
+    if (num > 20) {
+        nuevoArray.push(num)
+    }
+})
 
-// El metodo .map() me permite modificar un arreglo 
-let amigos = ["Diana", "Roberto", "Valentina", "Susana"]
+console.log(nuevoArray)
+console.log(numeros) */
 
-let dato = amigos.map(amigo => `Hola ${amigo}`)
-console.log(amigos)
+// Aplicando filter
+let numeros = [10, 436, 45, 74, 33, 9, 2, 54]
+
+let dato = numeros.filter(num => num > 20)
+
 console.log(dato)
-
-// .map tine la misma funcionalidad de forEach pero tiene la cualidad de devolver un nuevo array nuevecito
-// Usar for each siempre y cuando este seguro de no necesitar almacenar el nuevo array generado
-//.map te devuelve un nuevo array y se mantiene el aray original
