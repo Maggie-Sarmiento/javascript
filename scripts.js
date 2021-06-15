@@ -1,53 +1,43 @@
 /**
- * Arrays - Ciclos
+ * Strings - Manipulando stirngs
  */
 
-// Find, includes, some, every
 
+// SLICE
+/* let texto = "Maggie Sarmiento"
 
-// FIND
-/* let numeros = [10, 436, 45, 74, 33, 9, 2, 54]
-
-let dato = numeros.find(num => num%2 === 1)
-
+let dato = texto.slice(3, 10)
 console.log(dato) */
-// Find devuelve el primer dato que cumple la condicion o validación
+// Slice nos permite partir una cadena grande en un trozo dandole dos parametros
 
 
-// INCLUDES
-/* let numeros2 = [10, 436, 45, 74, 33, 9, 2, 54]
+// SPLIT  va a dividir mi texto
+/* let texto = "Maggie Sarmiento"
 
-let dato2 = numeros2.includes(35)
-
-console.log(dato2) */
-// includes no me devuelve un dato me devulve un boolean true o false
-
-
-// SOME
-// some me va a permitir comprobar si al menos un elemnto de mi array cumple con una condicion
-/* let numeros3 = [10, 436, 45, -74, 33, 9, 2, 54]
-
-let dato3 = numeros3.some(num => num < 0)
-
-console.log(dato3) */
-// con some estoy pudiendo hacer una ocmpraración, con include no podia hacer la comparacion 
-// con some hace la comparación y si alguno d elos valores cumple la condicion devuelve true si no me devuelve flase
-// Funciona tambien con un string 
-
-/* let numeros3 = [10, 436, 45, "Maggie", 33, 9, 2, 54]
-
-let dato3 = numeros3.some(num => typeof num === "string")
-
-console.log(dato3) */
-// No me dice cual pero con esto se que dentro de mi array se que hay un dato que es string 
+let dato = texto.split(" ")
+console.log(dato) */
+// split hace una coleccion de datos y lo devuelve como un arreglo
+// si selecciono un aletra se parte en la letra pero la letra no forma parte del nuevo array
+// si pongo el split vacio ("") lo hace por caracteres
 
 
 
-// EVERY
-let numeros3 = [10, 436, 45, "Maggie", 33, 9, 2, 54]
+// SEARCH necesita dentro del parametro una exprecion regular
+// Una esprecion regular es una serie de caracteres que simbolizan algo de manera que el lenguaje lo entiende y hace una busqueda o comparacion
+/* let texto = "Maggie Sarmiento"
 
-let dato3 = numeros3.every(num => typeof num === "string")
+let dato = texto.search()
+console.log(dato) */
 
-console.log(dato3)
-// Le estamos preguntando si todos los elementos son string
-// con every hago una comparación y se valida con true, si uno no cumple no se valida y seria false
+
+// TO
+let texto = "Maggie"
+let texto2 = "maggie"
+let texto3 = "MAGGIE"
+
+// let dato = texto.toLocaleLowerCase()
+
+if (texto.toUpperCase === "MAGGIE") {
+    // hacer algo
+}
+console.log(dato)
