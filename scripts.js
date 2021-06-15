@@ -1,32 +1,22 @@
 /**
- * ARRAYS - Ciclos
+ * ForEach vs Map
  */
 
-// let amigos = []
-let amigos = ["Diana", "Roberto", "Valentina", "Susana"]
+// Corrección del tema anterior
+/* let amigos = ["Diana", "Roberto", "Valentina", "Susana"]
 
-// console.log(amigos)
-
-/* for (let i = 0; i < amigos.length; i++){
-    console.log(amigos[i])
-} */
-
-// los arrays ya traen metodos para hacer recorridos de una manera más optima
-// For each (para cada elemento) necesita como parametro una funcion
-
-/* amigos.forEach(function(amigo){
-    console.log(amigo)
-})
- */
-
-amigos.forEach(amigo => console.log(amigo))
-
-/* let dato = amigos.forEach(amigo => console.log(amigo))
+let dato = amigos.forEach(amigo => console.log(`Hola ${amigo}`))
 console.log(dato) */
 
-// El metodo forEch no devuelve nada
+// Si imprime array con el saludo por cada amigo, pero no almacena el tamaño dado que forEach no funciona asi
 
-/* let dato = amigos.forEach(amigo => `Hola ${amigo}`)
-console.log(dato) // Tampoco devueve nada */
+// El metodo .map() me permite modificar un arreglo 
+let amigos = ["Diana", "Roberto", "Valentina", "Susana"]
 
-// La finalidad de forEach es simplemente hacer algo con los elementos
+let dato = amigos.map(amigo => `Hola ${amigo}`)
+console.log(amigos)
+console.log(dato)
+
+// .map tine la misma funcionalidad de forEach pero tiene la cualidad de devolver un nuevo array nuevecito
+// Usar for each siempre y cuando este seguro de no necesitar almacenar el nuevo array generado
+//.map te devuelve un nuevo array y se mantiene el aray original
