@@ -1,42 +1,26 @@
 /**
- * Objetos - Valores y atributos d elos objetos
+ * Math y Date
+ * MATH nos permite tener valores matematicos y DATE valores de fecha
  */
 
 
-let alumno = {
-    nombre: "Maggie",
-    edad: 28,
-    suscriptor: false,
-    ciudad: "lima"
-}
+// MATH quiero obtener un numero aleatorio entre 1 y 10
+/* const valor = Math.random()*10
+console.log(valor) */
 
-// console.log(alumno)
+// necesito el valor de Pi
+/* const valor = Math.PI
+console.log(valor) */
+// en Math se encuentran algunos valores matematicos que ya vienen incluidos en el lenguaje
 
-// Quiero acceder a solo uno de los atrubutos
-// 1 nomenclatura
-console.log(alumno.ciudad)
-
-// 2 nomenclatura
-console.log(alumno["edad"])   // tiene que ser como cadena de texto
+// tambien puedo utilizar metodos max min sen cos etc
+const valor = Math.max(50, 2, 26, 88)
+console.log(valor)
 
 
-// Quiero oobtener todos los valores de mi objeto
-let valores = Object.values(alumno)
-
-console.log(valores)
-// esto es util en ciertos casos particulares
-
-
-
-let llaves = Object.keys(alumno)
-
-console.log(llaves)
-
-// si mi objeto esta vacio mi array estara vacio
-let Arrayvacio = {
-}
-
-let datos = Object.keys(Arrayvacio)
-
-console.log(datos)
-// Si el array es un array vacio es un objeto vacio si el array es que el objeto es que tiene ese o esos atributo 
+// DATE
+/* const value = new Date()
+console.log(value.getMinutes()) */
+// podemos manipular las fechas e incluso el valor que quiero imprimir 
+const value = new Date()
+console.log(value.getUTCDate())
